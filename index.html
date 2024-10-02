@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mides Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Redes</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <img src="assets/logo.png" alt="Logo de MidesProjects" class="logo">
+        <div class="main-text">
+            <h1>Welcome to Mides Games</h1>
+            <p>Register here to join our game!</p>
+
+            <h2>Registro</h2>
+            <form id="registerForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <input type="submit" value="Register" class="button">
+            </form>
+
+            <div id="registerMessage"></div> <!-- Mensaje de registro -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-media">
+            <a href="https://github.com/MidesProjects" target="_blank">GitHub</a>
+            <a href="https://instagram.com/MidesProjects" target="_blank">Instagram</a>
+            <a href="https://twitter.com/MidesProjects" target="_blank">Twitter</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2024 MidesProjects. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
