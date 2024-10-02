@@ -19,9 +19,7 @@ Este es un proyecto de práctica utilizando **PHP**, **JavaScript** y **HTML/CSS
 ## Instalación
 
 > Clona este repositorio en tu servidor local:
-    ```bash
-    git clone https://github.com/KohiLounges/website-mides.git
-    ```
+    ```bashgit clone https://github.com/KohiLounges/website-mides.git```
 
 ## Uso
 
