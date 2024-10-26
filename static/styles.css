@@ -1,0 +1,150 @@
+
+@font-face {
+    font-family: 'Panton'; 
+    src: url('assets/Panton-BlackCaps.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PantonItalic'; 
+    src: url('assets/Panton-BlackitalicCaps.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PantonLight'; 
+    src: url('assets/Panton-LightCaps.otf') format('truetype');
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /
+}
+
+body {
+    font-family: 'Panton', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #15131f; 
+    padding: 15px;
+    color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin-right: 20px; 
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #7e7e7e; 
+}
+
+.main-content {
+    padding: 50px;
+    background-color: #131823; 
+    color: #f7f7f7;
+    text-align: center;
+    flex: 1; 
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+    font-family: 'PantonItalic', sans-serif;
+    width: 100%;              
+    background-color: #15131f;
+    padding: 15px 0; 
+    text-align: center;
+    color: white;
+}
+
+.footer .social-media {
+    margin-bottom: 20px;
+}
+
+.footer .social-media a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media a:hover {
+    color: #7e7e7e; 
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.footer .copyright {
+    font-size: 12px;
+    color: #f7f7f7;
+}
+
+.main-content img.logo {
+    max-width: 200px; 
+    margin-bottom: 20px; 
+}
+
+form {
+    background-color: #1E212B;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 300px; /* Ancho del formulario */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f7f7f7;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #272838;
+    color: white;
+}
+
+input[type="submit"].button {
+    background-color: #646464; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'PantonItalic', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"].button:hover {
+    background-color: #333333;
+}
